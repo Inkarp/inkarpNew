@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import Maccor from '/src/assets/PrincipalLogos/RowTwo/Maccor.jpg';
 import HohsenCorp from '/src/assets/PrincipalLogos/RowTwo/header.png';
-import LabStation from '../../../assets/PrincipalLogos/RowTwo/labstation.svg';
+import Labstation from '/src/assets/PrincipalLogos/RowTwo/labstation.svg';
 
 // Slug function
 const slugify = (str) =>
@@ -25,7 +25,7 @@ const synthesisData = [
   },
   {
     principal: "Labstation",
-    logo: LabStation,
+    logo: Labstation,
     products: [
       "Glovebox workstations",
       "Solvent Purifiers",
