@@ -110,7 +110,7 @@ function App() {
           <Route path="/verticals/pilot-plants-and-automation/:type" element={<PilotPlantProducts />} />
           <Route path="/verticals/pilot-plants-and-automation/:type/:productSlug" element={<PilotPlantProductDetails />} />
 
-          <Route path="/verticals/material-science-and-battery" element={<MaterialScienceAndBattery />} />
+          {/* <Route path="/verticals/material-science-and-battery" element={<MaterialScienceAndBattery />} /> */}
           <Route path="/verticals/material-science-and-battery/:type" element={<MaterialScienceProducts />} />
           <Route path="/verticals/material-science-and-battery/:type/:productSlug" element={<MaterialScienceProductDetails />} />
 
