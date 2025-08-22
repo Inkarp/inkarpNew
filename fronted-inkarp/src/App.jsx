@@ -90,8 +90,8 @@ function App() {
 
           {/* General fallback */}
           {/* <Route path="/verticals/:subpage" element={<VerticalsPage />} /> */}
-          <Route path="/verticals" element={<Verticals />} />
-          {/* <Route path="/verticals" element={<VerticalsBubble />} /> */}
+          {/* <Route path="/verticals" element={<Verticals />} /> */}
+          <Route path="/verticals" element={<VerticalsBubble />} />
           {/* Verticals Routes */}
           {/* Specific first */}
           <Route path="/verticals/synthesis-and-flow-chemistry" element={<SynthesisAndFlowChemistry />} />
