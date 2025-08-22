@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
+import Maccor from '/src/assets/PrincipalLogos/RowTwo/Maccor.jpg';
+import HohsenCorp from '/src/assets/PrincipalLogos/RowTwo/header.png';
+import LabStation from '../../../assets/PrincipalLogos/RowTwo/labstation.svg';
 
+// Slug function
 const slugify = (str) =>
   str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
