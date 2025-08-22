@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import Maccor from '/src/assets/PrincipalLogos/RowTwo/Maccor.jpg';
 import HohsenCorp from '/src/assets/PrincipalLogos/RowTwo/header.png';
-// import Labstation from '../../../assets/PrincipalLogos/RowTwo/labstation.svg'
+import Labstation from '../../../assets/PrincipalLogos/RowTwo/labstation.svg'
 
 
 // Slug function
@@ -24,14 +24,14 @@ const synthesisData = [
       "Battery and Cell Test Equipment",
     ],
   },
-  // {
-  //   principal: "Labstation",
-  //   logo: Labstation,
-  //   products: [
-  //     "Glovebox workstations",
-  //     "Solvent Purifiers",
-  //   ],
-  // }
+  {
+    principal: "Labstation",
+    logo: Labstation,
+    products: [
+      "Glovebox workstations",
+      "Solvent Purifiers",
+    ],
+  }
 ];
 
 export default function MaterialScienceAndBattery() {
