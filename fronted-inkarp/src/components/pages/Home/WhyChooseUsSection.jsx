@@ -140,7 +140,7 @@ export default function WhyChooseUsSection() {
       className="relative py-10 md:px-10 lg:px-20 w-[98%] mx-auto"
     >
       {/* soft stage bg */}
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_20%_-10%,rgba(230,57,70,0.08),transparent),radial-gradient(1200px_600px_at_80%_110%,rgba(230,57,70,0.08),transparent)]" />
+      {/* <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_20%_-10%,rgba(230,57,70,0.08),transparent),radial-gradient(1200px_600px_at_80%_110%,rgba(230,57,70,0.08),transparent)]" /> */}
       <motion.div
         // style={{ x: useTransform(parallaxX, v => -v), y: useTransform(parallaxY, v => -v) }}
         className=""

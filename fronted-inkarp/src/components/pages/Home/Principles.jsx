@@ -189,7 +189,7 @@ export default function Principles() {
           Strategic Alliances with Global Scientific Leaders
         </h2>
       </div>
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_20%_-10%,rgba(230,57,70,0.08),transparent),radial-gradient(1200px_600px_at_80%_110%,rgba(230,57,70,0.08),transparent)]" />
+      {/* <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_20%_-10%,rgba(230,57,70,0.08),transparent),radial-gradient(1200px_600px_at_80%_110%,rgba(230,57,70,0.08),transparent)]" /> */}
 
       <div
         className="relative w-full min-h-[50vh] flex flex-col md:flex-row px-4 py-8 md:py-12 overflow-y-auto"

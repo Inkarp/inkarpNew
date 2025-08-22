@@ -149,8 +149,8 @@ const Home = () => {
       {/* <CompaniesNew /> */}
       {isMobileOrTablet ? <PrincipalsTab /> : <Principles />}
       <Offerings />
-      <OfferingsNew />
-      <OfferingsDemo />
+      {/* <OfferingsNew /> */}
+      {/* <OfferingsDemo /> */}
       <HomeBlogs />
       <NewsEvents />
       <ClientReviews />
