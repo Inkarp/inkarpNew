@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import Maccor from '/src/assets/PrincipalLogos/RowTwo/Maccor.jpg';
 import HohsenCorp from '/src/assets/PrincipalLogos/RowTwo/header.png';
-import LabStation from '/src/assets/PrincipalLogos/RowTwo/labstation.svg';
+// import LabStation from '/src/assets/PrincipalLogos/RowTwo/labstation.svg';
 
 import AutomaticCoinCellCrimper from "/images/products/HoshenCorp/automatic-coin-cell-crimper.png";
 import ManualCoinCellCrimper from "/images/products/HoshenCorp/manual-coin-cell-crimper.png";
@@ -38,14 +38,14 @@ const synthesisData = [
       "Battery and Cell Test Equipment",
     ],
   },
-  {
-    principal: "Labstation",
-    logo: LabStation,
-    products: [
-      "Glovebox workstations",
-      "Solvent Purifiers",
-    ],
-  }
+  // {
+  //   principal: "Labstation",
+  //   logo: LabStation,
+  //   products: [
+  //     "Glovebox workstations",
+  //     "Solvent Purifiers",
+  //   ],
+  // }
 ];
 
 const synthesisProducts = {
